@@ -1,6 +1,6 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
-export const PersonCard = () => {
+export const SpeakerCard = () => {
 	return (
 		<div className="shadow-lg bg-white rounded-lg">
 			<div className="px-6 py-3 border-b">
