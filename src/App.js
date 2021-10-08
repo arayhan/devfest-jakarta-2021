@@ -2,6 +2,7 @@ import ReactPlayer from "react-player";
 import { MdCalendarToday, MdLocationPin, MdSchedule } from "react-icons/md";
 import { Container } from "./components/Container";
 import { SpeakerCard } from "./components/SpeakerCard";
+import SPEAKERS_DATA from "./data/speakers.json";
 
 function App() {
 	return (
@@ -137,12 +138,15 @@ function App() {
 						</p>
 					</div>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
+						{SPEAKERS_DATA.map((speaker) => (
+							<SpeakerCard
+								name={speaker.name}
+								topic={speaker.topic}
+								avatar_url={speaker.avatar_url}
+								roles={speaker.roles}
+								social_media={speaker.social_media}
+							/>
+						))}
 					</div>
 				</Container>
 			</section>
@@ -247,12 +251,15 @@ function App() {
 						</p>
 					</div>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
-						<SpeakerCard />
+						{SPEAKERS_DATA.map((speaker) => (
+							<SpeakerCard
+								name={speaker.name}
+								topic={speaker.topic}
+								avatar_url={speaker.avatar_url}
+								roles={speaker.roles}
+								social_media={speaker.social_media}
+							/>
+						))}
 					</div>
 				</Container>
 			</section>
