@@ -22,8 +22,7 @@ export const SpeakerCard = () => {
 					<h1 className="text-lg font-semibold text-gray-700">Galuh Sahid</h1>
 					<div className="text-gray-500 text-sm">
 						<div>GDE Machine Learning</div>
-						<div>Data Scientist</div>
-						<div>Gojek</div>
+						<div>Data Scientist @Gojek</div>
 					</div>
 					<div className="flex justify-center lg:justify-start space-x-6 text-gray-500">
 						<a className="hover:text-blue-700 transition-all" href="#">
