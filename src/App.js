@@ -1,6 +1,7 @@
 import ReactPlayer from "react-player";
 import { MdCalendarToday, MdLocationPin, MdSchedule } from "react-icons/md";
 import { Container } from "./components/Container";
+import { SpeakerCard } from "./components/SpeakerCard";
 
 function App() {
 	return (
@@ -28,8 +29,8 @@ function App() {
 			</header>
 
 			<div className="py-20">
-				<Container className="flex items-center">
-					<div className="space-y-8">
+				<Container className="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-8">
+					<div className="w-full space-y-8">
 						<div className="space-y-3">
 							<h1 className="text-3xl ">GDG Devfest 2021 Jakarta</h1>
 							<p className="text-xl text-gray-500">
@@ -61,9 +62,12 @@ function App() {
 							Register
 						</button>
 					</div>
-					<div>
+					<div className="w-full">
 						<div className="rounded-md overflow-hidden">
-							<ReactPlayer url="https://www.youtube.com/watch?v=7BqKlQc6-Qc" />
+							<ReactPlayer
+								width="100%"
+								url="https://www.youtube.com/watch?v=7BqKlQc6-Qc"
+							/>
 						</div>
 					</div>
 				</Container>
@@ -72,7 +76,9 @@ function App() {
 			<section className="bg-gray-100 py-20">
 				<Container className="space-y-10">
 					<div className="max-w-screen-lg mx-auto text-center space-y-3">
-						<h1 className="text-3xl text-gray-800">Technologies</h1>
+						<h1 className="text-3xl text-blue-700 font-semibold">
+							Technologies
+						</h1>
 						<p className="text-gray-500 text-lg">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Doloremque voluptatem, vero iusto quo distinctio nesciunt aut
@@ -80,7 +86,7 @@ function App() {
 							adipisci veniam error quas facilis?
 						</p>
 					</div>
-					<div className="grid grid-cols-2 md:grid-cols-4 items-center justify-center text-center">
+					<div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-center text-center">
 						<div className="flex flex-col items-center justify-center space-y-6">
 							<img
 								className="w-28"
@@ -113,6 +119,30 @@ function App() {
 							/>
 							<div className="text-lg text-blue-500">Web</div>
 						</div>
+					</div>
+				</Container>
+			</section>
+
+			<section className="py-20">
+				<Container className="space-y-10">
+					<div className="space-y-3">
+						<h1 className="text-3xl text-blue-700 font-semibold">
+							Featured Speakers
+						</h1>
+						<p className="text-lg text-gray-500">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+							maiores laborum blanditiis earum rerum inventore atque soluta
+							suscipit unde pariatur repudiandae numquam cum omnis laudantium
+							doloribus, velit non dolorum? Sapiente.
+						</p>
+					</div>
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
 					</div>
 				</Container>
 			</section>
