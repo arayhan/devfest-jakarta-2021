@@ -28,7 +28,7 @@ function App() {
 				</Container>
 			</header>
 
-			<div className="py-20">
+			<div className="py-24">
 				<Container className="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-8">
 					<div className="w-full space-y-8">
 						<div className="space-y-3">
@@ -73,9 +73,9 @@ function App() {
 				</Container>
 			</div>
 
-			<section className="bg-gray-100 py-20">
-				<Container className="space-y-10">
-					<div className="max-w-screen-lg mx-auto text-center space-y-3">
+			<section className="bg-gray-100 py-24">
+				<Container className="space-y-14">
+					<div className="max-w-screen-lg mx-auto text-center space-y-6">
 						<h1 className="text-3xl text-blue-700 font-semibold">
 							Technologies
 						</h1>
@@ -123,7 +123,7 @@ function App() {
 				</Container>
 			</section>
 
-			<section className="py-20">
+			<section className="py-24">
 				<Container className="space-y-10">
 					<div className="space-y-3">
 						<h1 className="text-3xl text-blue-700 font-semibold">
@@ -147,7 +147,7 @@ function App() {
 				</Container>
 			</section>
 
-			<section className="bg-blue-500 py-20">
+			<section className="bg-blue-500 py-24">
 				<Container className="space-y-10">
 					<div className="space-y-3">
 						<h1 className="text-3xl text-white font-semibold">Agenda</h1>
@@ -185,7 +185,7 @@ function App() {
 						</div>
 						<div>
 							<div className="font-semibold border-white border-opacity-50 border-b py-3">
-								Day 1
+								Day 2
 							</div>
 							<div>
 								<div className="flex py-3">
@@ -209,7 +209,7 @@ function App() {
 						</div>
 						<div>
 							<div className="font-semibold border-white border-opacity-50 border-b py-3">
-								Day 1
+								Day 3
 							</div>
 							<div>
 								<div className="flex py-3">
@@ -231,6 +231,54 @@ function App() {
 								</div>
 							</div>
 						</div>
+					</div>
+				</Container>
+			</section>
+
+			<section className="py-24">
+				<Container className="space-y-10">
+					<div className="space-y-3">
+						<h1 className="text-3xl text-blue-700 font-semibold">Organizers</h1>
+						<p className="text-lg text-gray-500">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+							maiores laborum blanditiis earum rerum inventore atque soluta
+							suscipit unde pariatur repudiandae numquam cum omnis laudantium
+							doloribus, velit non dolorum? Sapiente.
+						</p>
+					</div>
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
+						<SpeakerCard />
+					</div>
+				</Container>
+			</section>
+
+			<section className="py-24 bg-gray-100">
+				<Container className="space-y-10 text-center">
+					<div className="space-y-3">
+						<h1 className="text-3xl text-blue-700 font-semibold">
+							Get notified about the important conference updates
+						</h1>
+						<p className="text-lg text-gray-500">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+							maiores laborum blanditiis earum rerum inventore atque soluta
+							suscipit unde pariatur repudiandae numquam cum omnis laudantium
+							doloribus, velit non dolorum? Sapiente.
+						</p>
+					</div>
+					<div>
+						<a
+							className="bg-blue-500 px-8 py-3 rounded-md text-white"
+							href="https://gdg.community.dev/devfest/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Learn more about DevFest
+						</a>
 					</div>
 				</Container>
 			</section>
