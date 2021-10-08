@@ -6,6 +6,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: materialColor.COLORS,
+			fontFamily: {
+				primary: ["Google Sans", "sans-serif", "Roboto"],
+			},
 			container: {
 				center: true,
 				padding: "2rem",
