@@ -15,7 +15,7 @@ export const Header = () => {
 				</div>
 				<nav>
 					<a
-						className="text-gray-500 hover:text-blue-800 transition-all py-5"
+						className="text-gray-500 hover:text-blue-800 transition-all p-6 hover:bg-gray-100"
 						href="#"
 					>
 						Register
