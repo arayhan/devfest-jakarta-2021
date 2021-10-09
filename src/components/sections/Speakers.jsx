@@ -17,9 +17,10 @@ export const Speakers = () => {
 						doloribus, velit non dolorum? Sapiente.
 					</p>
 				</div>
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+				<div className="flex justify-center flex-wrap">
 					{SPEAKERS_DATA.map((speaker) => (
 						<SpeakerCard
+							className="sm:w-1/2 lg:w-1/3 p-3"
 							name={speaker.name}
 							topic={speaker.topic}
 							avatar_url={speaker.avatar_url}
