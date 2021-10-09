@@ -14,7 +14,12 @@ export const Organizers = () => {
 						doloribus, velit non dolorum? Sapiente.
 					</p>
 				</div>
-				<div className="flex flex-start justify-center">
+				<div className="flex flex-start justify-center flex-wrap">
+					<OrganizerCard className="w-64 p-3" />
+					<OrganizerCard className="w-64 p-3" />
+					<OrganizerCard className="w-64 p-3" />
+					<OrganizerCard className="w-64 p-3" />
+					<OrganizerCard className="w-64 p-3" />
 					<OrganizerCard className="w-64 p-3" />
 				</div>
 			</Container>
