@@ -8,6 +8,7 @@ module.exports = {
 			colors: materialColor.COLORS,
 			fontFamily: {
 				primary: ["Google Sans", "sans-serif", "Roboto"],
+				display: ["Google Sans Display", "sans-serif", "Roboto"],
 			},
 			container: {
 				center: true,
@@ -16,7 +17,10 @@ module.exports = {
 		},
 	},
 	variants: {
-		extend: {},
+		extend: {
+			padding: ["hover"],
+			space: ["hover"],
+		},
 	},
 	plugins: [
 		require("@tailwindcss/forms"),

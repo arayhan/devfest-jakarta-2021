@@ -5,7 +5,7 @@
 		url("./GoogleSans-MediumItalic.woff2") format("woff2"),
 		url("./GoogleSans-MediumItalic.woff") format("woff"),
 		url("./GoogleSans-MediumItalic.ttf") format("truetype");
-	font-weight: 500;
+	font-weight: 600;
 	font-style: italic;
 }
 
@@ -27,7 +27,7 @@
 		url("./GoogleSans-Medium.woff2") format("woff2"),
 		url("./GoogleSans-Medium.woff") format("woff"),
 		url("./GoogleSans-Medium.ttf") format("truetype");
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 }
 
@@ -60,7 +60,7 @@
 		url("./GoogleSansDisplay-Medium.woff2") format("woff2"),
 		url("./GoogleSansDisplay-Medium.woff") format("woff"),
 		url("./GoogleSansDisplay-Medium.ttf") format("truetype");
-	font-weight: 500;
+	font-weight: 600;
 	font-style: normal;
 }
 
