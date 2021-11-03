@@ -20,8 +20,8 @@ export const HeaderDesktop = () => {
 					<NavLink
 						key={route.path}
 						exact
-						activeClassName="border-blue-500 text-blue-500"
-						className="p-6 text-gray-400 border-b-2 border-transparent hover:bg-gray-50 transition hover:text-blue-500"
+						activeClassName="border-blue-500 text-blue-700"
+						className="p-6 text-gray-400 border-b-2 border-transparent hover:bg-gray-50 transition hover:text-blue-700"
 						to={route.path}
 					>
 						{route.title}
@@ -31,7 +31,7 @@ export const HeaderDesktop = () => {
 
 			<div className="flex absolute right-10 top-1/2 transform -translate-y-1/2 items-center space-x-3">
 				<a
-					className="bg-blue-500 flex items-center rounded-full px-6 py-3 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-600"
+					className="bg-blue-700 flex items-center rounded-full px-6 py-3 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-700"
 					href="https://gdg.community.dev/"
 					target="_blank"
 					rel="noreferrer"

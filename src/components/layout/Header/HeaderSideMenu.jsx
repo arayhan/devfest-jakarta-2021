@@ -32,8 +32,8 @@ export const HeaderSideMenu = ({ show, onClose }) => {
 					{HEADER_ROUTES.map((route) => (
 						<NavLink
 							key={route.path}
-							activeClassName="border-blue-500 text-blue-500"
-							className="p-6 text-gray-400 border-l-4 border-transparent hover:bg-gray-50 transition hover:text-blue-500"
+							activeClassName="border-blue-500 text-blue-700"
+							className="p-6 text-gray-400 border-l-4 border-transparent hover:bg-gray-50 transition hover:text-blue-700"
 							to={route.path}
 						>
 							{route.title}
@@ -43,7 +43,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
 
 				<div className="absolute bottom-0 flex items-center space-x-3 justify-between w-full">
 					<a
-						className="w-full bg-blue-500 flex items-center justify-between rounded-full m-6 px-6 py-4 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-600"
+						className="w-full bg-blue-700 flex items-center justify-between rounded-full m-6 px-6 py-4 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-700"
 						href="https://gdg.community.dev/"
 						target="_blank"
 						rel="noreferrer"

@@ -2,7 +2,7 @@ import { Container } from "../Container";
 
 export const Agenda = () => {
 	return (
-		<section className="bg-blue-500 py-24">
+		<section className="bg-blue-700 py-24">
 			<Container className="space-y-10">
 				<div className="space-y-3">
 					<h1 className="text-3xl text-white font-semibold">Agenda</h1>

@@ -34,7 +34,7 @@ export const Banner = () => {
 							<span className="text-base">Live on Youtube</span>
 						</div>
 					</div>
-					<button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-all">
+					<button className="bg-blue-700 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-all">
 						Register
 					</button>
 				</div>

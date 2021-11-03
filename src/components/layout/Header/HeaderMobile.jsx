@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdDehaze } from "react-icons/md";
 import { ROUTES } from "../../../routes";
-import { Container } from "../../Container";
 import { HeaderSideMenu } from "./HeaderSideMenu";
 
 export const HeaderMobile = () => {
@@ -13,7 +12,7 @@ export const HeaderMobile = () => {
 	return (
 		<div className="block lg:hidden">
 			<HeaderSideMenu show={showSideMenu} onClose={handleClose} />
-			<Container>
+			<div className="px-8 sm:px-10">
 				<div className="flex items-center justify-between py-3 space-x-6">
 					<Link to={ROUTES.HOME}>
 						<img
@@ -29,7 +28,7 @@ export const HeaderMobile = () => {
 						<MdDehaze size={20} />
 					</button>
 				</div>
-			</Container>
+			</div>
 		</div>
 	);
 };
