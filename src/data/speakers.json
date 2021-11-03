@@ -1,90 +1,60 @@
 [
 	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
+		"name": "Ardya Dipta Nandaviri",
+		"topic": "-",
+		"avatar_url": "https://drive.google.com/u/0/uc?id=1LOHY6GYLBQ8Abj8LcoI-yD-VZCJcTUJG&export=download",
+		"institution": "Gojek",
+		"roles": "Lead Data",
 		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
+			"linkedin": "https://www.linkedin.com/in/ardyadipta"
 		}
 	},
 	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
-		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
-		}
+		"name": "Argha Jiwa Kusuma",
+		"topic": "-",
+		"avatar_url": "https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
+		"institution": "Jak Linggo",
+		"roles": "Data Science Analyst",
+		"social_media": {}
 	},
 	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
-		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
-		}
+		"name": "Riza Fahmi",
+		"topic": "-",
+		"avatar_url": "https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
+		"institution": "Hacktiv8 Indonesia",
+		"roles": "Co-Founder",
+		"social_media": {}
 	},
 	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
-		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
-		}
+		"name": "Zain Fathoni",
+		"topic": "-",
+		"avatar_url": "https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
+		"institution": "Ninja Van",
+		"roles": "Senior Software Engineer",
+		"social_media": {}
 	},
 	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
-		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
-		}
+		"name": "Bianca Xiemes",
+		"topic": "-",
+		"avatar_url": "https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
+		"institution": "Scale Up",
+		"roles": "Head of AI / GDE",
+		"social_media": {}
 	},
 	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
-		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
-		}
+		"name": "Budi Oktaviyan",
+		"topic": "-",
+		"avatar_url": "https://drive.google.com/u/0/uc?id=1LOHY6GYLBQ8Abj8LcoI-yD-VZCJcTUJG&export=download",
+		"institution": "Grab",
+		"roles": "Engineering Manager",
+		"social_media": {}
 	},
 	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
-		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
-		}
-	},
-	{
-		"name": "Galuh Sahid",
-		"topic": "Jetpack Compose: Modern UI Framework in Android",
-		"avatar_url": "https://internationalwomensday-2020.web.app/assets/images/speakers/galuh-sahid.jpg",
-		"roles": ["GDE Machine Learning", "Data Scientist @Gojek"],
-		"social_media": {
-			"facebook": "https://facebook.com",
-			"twitter": "https://google.com",
-			"instagram": "https://google.com"
-		}
+		"name": "Raditya Gumay",
+		"topic": "-",
+		"avatar_url": "https://drive.google.com/u/0/uc?id=1LOHY6GYLBQ8Abj8LcoI-yD-VZCJcTUJG&export=download",
+		"institution": "Gojek",
+		"roles": "Tech Lead",
+		"social_media": {}
 	}
 ]
