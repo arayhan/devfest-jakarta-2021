@@ -19,6 +19,7 @@ export const HeaderDesktop = () => {
 				{HEADER_ROUTES.map((route) => (
 					<NavLink
 						key={route.path}
+						exact
 						activeClassName="border-blue-500 text-blue-500"
 						className="p-6 text-gray-400 border-b-2 border-transparent hover:bg-gray-50 transition hover:text-blue-500"
 						to={route.path}

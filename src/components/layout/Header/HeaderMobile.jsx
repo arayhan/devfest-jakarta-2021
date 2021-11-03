@@ -23,7 +23,7 @@ export const HeaderMobile = () => {
 						/>
 					</Link>
 					<button
-						className="sm:p-4 transform sm:translate-x-4 transition-all hover:bg-gray-100 rounded-full outline-none"
+						className="p-4 transform translate-x-4 transition-all hover:bg-gray-100 rounded-full outline-none"
 						onClick={() => setShowSideMenu(!showSideMenu)}
 					>
 						<MdDehaze size={20} />

@@ -3,7 +3,7 @@ import { HeaderMobile } from "./HeaderMobile";
 
 export const Header = () => {
 	return (
-		<header className="relative shadow-md">
+		<header className="fixed w-full bg-white shadow-md">
 			<HeaderDesktop />
 			<HeaderMobile />
 		</header>

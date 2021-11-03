@@ -7,6 +7,10 @@ export const ROUTES = {
 
 export const HEADER_ROUTES = [
 	{
+		path: ROUTES.HOME,
+		title: "Home",
+	},
+	{
 		path: ROUTES.SPEAKERS,
 		title: "Speakers",
 	},
