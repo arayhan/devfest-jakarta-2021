@@ -13,11 +13,8 @@ export const Home = () => {
 			<Banner />
 			<About />
 			<Streams />
-			{/* <Topics />
 			<Speakers />
-			<Agenda />
-			<Organizers /> */}
-			{/* <CTA /> */}
+			<CTA />
 		</div>
 	);
 };
