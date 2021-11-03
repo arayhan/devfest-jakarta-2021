@@ -5,7 +5,7 @@ import { ROUTES } from "../../routes";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { FiChevronRight } from "react-icons/fi";
 
-export const Speakers = () => {
+export const SpeakersSection = () => {
 	return (
 		<section className="py-24">
 			<Container className="space-y-14">
