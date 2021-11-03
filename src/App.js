@@ -1,22 +1,20 @@
+import { Switch, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
 import { Header } from "./components/sections/Header";
-import { Banner } from "./components/sections/Banner";
-import { Topics } from "./components/sections/Topics";
-import { Speakers } from "./components/sections/Speakers";
-import { Agenda } from "./components/sections/Agenda";
-import { Organizers } from "./components/sections/Organizers";
-import { CTA } from "./components/sections/CTA";
 import { Footer } from "./components/sections/Footer";
+import { ROUTES } from "./routes";
 
 function App() {
 	return (
 		<div className="App">
 			<Header />
-			<Banner />
-			<Topics />
-			<Speakers />
-			<Agenda />
-			<Organizers />
-			<CTA />
+
+			<Switch>
+				<Route path={ROUTES.HOME}>
+					<Home />
+				</Route>
+			</Switch>
+
 			<Footer />
 		</div>
 	);
