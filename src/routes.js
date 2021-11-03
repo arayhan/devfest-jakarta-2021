@@ -18,8 +18,4 @@ export const HEADER_ROUTES = [
 		path: ROUTES.SCHEDULES,
 		title: "Schedules",
 	},
-	{
-		path: ROUTES.ORGANIZERS,
-		title: "Organizers",
-	},
 ];
