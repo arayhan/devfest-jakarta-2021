@@ -10,9 +10,30 @@ export const Streams = () => {
 			<Container>
 				<div className="space-y-14">
 					<div className="flex flex-wrap justify-center">
-						<StreamCard />
-						<StreamCard />
-						<StreamCard />
+						<StreamCard
+							thumbnail={require("../../assets/images/banner.png").default}
+							day="1"
+							topic="Machine Learning Day"
+							date="Friday, 26 November 2021"
+							time="18:15 - 21:40"
+							url="https://gdg.community.dev/"
+						/>
+						<StreamCard
+							thumbnail={require("../../assets/images/banner.png").default}
+							day="2"
+							topic="Android Day"
+							date="Saturday, 27 November 2021"
+							time="12:45 - 16:30"
+							url="https://gdg.community.dev/"
+						/>
+						<StreamCard
+							day="3"
+							thumbnail={require("../../assets/images/banner.png").default}
+							topic="Web Day"
+							date="Sunday, 28 November 2021"
+							time="12:45 - 16:30"
+							url="https://gdg.community.dev/"
+						/>
 					</div>
 					<div className="flex items-center justify-start">
 						<Link
