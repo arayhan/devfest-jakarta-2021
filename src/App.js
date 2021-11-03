@@ -1,7 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Header } from "./components/sections/Header";
-import { Footer } from "./components/sections/Footer";
+import { Header } from "./components/layout/Header/Header";
+import { Footer } from "./components/layout/Footer";
 import { ROUTES } from "./routes";
 
 function App() {
