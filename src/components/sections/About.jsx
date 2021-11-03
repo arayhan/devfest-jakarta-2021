@@ -8,7 +8,7 @@ export const About = () => {
 		<div className="py-24">
 			<Container className="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-20">
 				<div className="w-full space-y-10">
-					<div className="space-y-6">
+					<div className="space-y-3">
 						<h1 className="text-4xl font-display font-semibold">
 							GDG Devfest 2021 Jakarta
 						</h1>
@@ -17,6 +17,17 @@ export const About = () => {
 							because of pandemic"
 						</p>
 					</div>
+
+					<p>
+						Whether it be through technical talks delivered in local languages,
+						a keynote provided by Google Developers, or by simply meeting fellow
+						local developers, DevFest attendees learn about how Google developer
+						products can help them do what they do best - develop. Sessions
+						cover a wide variety of technologies with speakers from Google,
+						Google Developer Groups, Women Techmakers, Google Developer Experts,
+						and more.
+					</p>
+
 					<div className="space-y-3">
 						<div className="flex items-center text-gray-500 space-x-3">
 							<div className="w-8 flex justify-center">
