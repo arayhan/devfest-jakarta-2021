@@ -5,6 +5,7 @@ import { Header } from "./components/layout/Header/Header";
 import { Footer } from "./components/layout/Footer";
 import { ROUTES } from "./routes";
 import { Speakers } from "./pages/Speakers";
+import { Schedules } from "./pages/Schedules";
 
 function App() {
 	const headerRef = useRef();
@@ -12,7 +13,6 @@ function App() {
 	const [headerHeight, setHeaderHeight] = useState(0);
 
 	useEffect(() => {
-		console.log(headerRef);
 		setHeaderHeight(headerRef.current ? headerRef.current.clientHeight : 0);
 	}, [headerRef]);
 
@@ -26,7 +26,7 @@ function App() {
 						<Speakers />
 					</Route>
 					<Route path={ROUTES.SCHEDULES}>
-						<Home />
+						<Schedules />
 					</Route>
 					<Route path={ROUTES.HOME}>
 						<Home />

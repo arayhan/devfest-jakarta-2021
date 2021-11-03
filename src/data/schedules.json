@@ -1,0 +1,164 @@
+[
+	{
+		"label": "Day 1",
+		"topic": "Machine Learning",
+		"date": "Friday, 26 November 2021",
+		"agenda": [
+			{
+				"time": "18.15 - 18.30",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Youtube Streaming start with Idle Screen"
+			},
+			{
+				"time": "18.30 - 18.40",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Devfest 2021 Intro"
+			},
+			{
+				"time": "18.40 - 18.45",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speakers Machine Learning Intro"
+			},
+			{
+				"time": "18.45 - 18.55",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Welcome, MC Speaker 1 Machine Learning Intro"
+			},
+			{
+				"time": "18.55 - 19.35",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 1 Machine Learning - Session"
+			},
+			{
+				"time": "19.35 - 19.40",
+				"title": "Speaker 1 Machine Learning- QnA"
+			},
+			{
+				"time": "19.40 - 19.45",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Speaker 2 Machine Learning intro"
+			},
+			{
+				"time": "19.45 - 20.25",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 2 Machine Learning - Session"
+			},
+			{
+				"time": "20.25 - 20.30",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 2 Machine Learning - QnA"
+			},
+			{
+				"time": "20.30 - 20.35",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Speaker 3 Machine Learning intro"
+			},
+			{
+				"time": "20.35 - 21.15",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 3 Machine Learning - Session"
+			},
+			{
+				"time": "21.15 - 21.20",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 3 Machine Learning - QnA"
+			},
+			{
+				"time": "21.20 - 21.25",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Quiz intro"
+			},
+			{
+				"time": "21.25 - 21.35",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Quiz Session"
+			},
+			{
+				"time": "21.35 - 21.40",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Event closing"
+			}
+		]
+	},
+	{
+		"label": "Day 2",
+		"topic": "Android",
+		"date": "Friday, 26 November 2021",
+		"agenda": [
+			{
+				"time": "18.15 - 18.30",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Youtube Streaming start with Idle Screen"
+			},
+			{
+				"time": "18.30 - 18.40",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Devfest 2021 Intro"
+			},
+			{
+				"time": "18.40 - 18.45",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speakers Machine Learning Intro"
+			},
+			{
+				"time": "18.45 - 18.55",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Welcome, MC Speaker 1 Machine Learning Intro"
+			},
+			{
+				"time": "18.55 - 19.35",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 1 Machine Learning - Session"
+			},
+			{
+				"time": "19.35 - 19.40",
+				"title": "Speaker 1 Machine Learning- QnA"
+			},
+			{
+				"time": "19.40 - 19.45",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Speaker 2 Machine Learning intro"
+			},
+			{
+				"time": "19.45 - 20.25",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 2 Machine Learning - Session"
+			},
+			{
+				"time": "20.25 - 20.30",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 2 Machine Learning - QnA"
+			},
+			{
+				"time": "20.30 - 20.35",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Speaker 3 Machine Learning intro"
+			},
+			{
+				"time": "20.35 - 21.15",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 3 Machine Learning - Session"
+			},
+			{
+				"time": "21.15 - 21.20",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Speaker 3 Machine Learning - QnA"
+			},
+			{
+				"time": "21.20 - 21.25",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "MC Quiz intro"
+			},
+			{
+				"time": "21.25 - 21.35",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Quiz Session"
+			},
+			{
+				"time": "21.35 - 21.40",
+				"timezone": "UTC/GMT +7 hours",
+				"title": "Event closing"
+			}
+		]
+	}
+]

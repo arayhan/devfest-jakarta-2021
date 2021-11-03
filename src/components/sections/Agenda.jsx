@@ -1,93 +1,38 @@
 import { Container } from "../Container";
 
-export const Agenda = () => {
+export const Agenda = ({ agendas }) => {
 	return (
-		<section className="bg-blue-700 py-24">
-			<Container className="space-y-10">
-				<div className="space-y-3">
-					<h1 className="text-3xl text-white font-semibold">Agenda</h1>
-					<p className="text-lg text-gray-200">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-						maiores laborum blanditiis earum rerum inventore atque soluta
-						suscipit unde pariatur repudiandae numquam cum omnis laudantium
-						doloribus, velit non dolorum? Sapiente.
-					</p>
-				</div>
-				<div className="grid lg:grid-cols-3 gap-8 text-white text-lg">
+		<section>
+			<div className="space-y-10">
+				<div className="text-gray-700 text-lg">
 					<div>
-						<div className="font-semibold border-white border-opacity-50 border-b py-3">
-							Day 1
-						</div>
 						<div>
-							<div className="flex py-3">
-								<div className="w-48">10:00 - 11:00</div>
-								<div className="w-full">
-									<div className="text-xl text-white font-semibold">
-										Registration
+							{agendas.map((agenda) => {
+								const timeStart = agenda.time.split("-")[0];
+								const timeEnd = agenda.time.split("-")[1];
+
+								return (
+									<div className="flex border-b">
+										<div className="w-52 border-r text-right p-8">
+											<div className="font-semibold text-2xl">{timeStart}</div>
+											<div className="text-sm mt-1">{timeEnd}</div>
+											<div className="text-xs font-semibold mt-3 text-gray-500">
+												{agenda.timezone}
+											</div>
+										</div>
+										<div className="w-full p-8">
+											<div className="text-2xl text-gray-700">
+												{agenda.title}
+											</div>
+											<div className="italic">{agenda.speakers}</div>
+										</div>
 									</div>
-								</div>
-							</div>
-							<div className="flex py-3">
-								<div className="w-48">10:00 - 11:00</div>
-								<div className="w-full">
-									<div className="text-xl text-white font-semibold">
-										Jetpack Compose: Modern UI Framework in Android
-									</div>
-									<div className="italic">Muh. Rahmatullah</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div className="font-semibold border-white border-opacity-50 border-b py-3">
-							Day 2
-						</div>
-						<div>
-							<div className="flex py-3">
-								<div className="w-48">10:00 - 11:00</div>
-								<div className="w-full">
-									<div className="text-xl text-white font-semibold">
-										Registration
-									</div>
-								</div>
-							</div>
-							<div className="flex py-3">
-								<div className="w-48">10:00 - 11:00</div>
-								<div className="w-full">
-									<div className="text-xl text-white font-semibold">
-										Jetpack Compose: Modern UI Framework in Android
-									</div>
-									<div className="italic">Muh. Rahmatullah</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div className="font-semibold border-white border-opacity-50 border-b py-3">
-							Day 3
-						</div>
-						<div>
-							<div className="flex py-3">
-								<div className="w-48">10:00 - 11:00</div>
-								<div className="w-full">
-									<div className="text-xl text-white font-semibold">
-										Registration
-									</div>
-								</div>
-							</div>
-							<div className="flex py-3">
-								<div className="w-48">10:00 - 11:00</div>
-								<div className="w-full">
-									<div className="text-xl text-white font-semibold">
-										Jetpack Compose: Modern UI Framework in Android
-									</div>
-									<div className="italic">Muh. Rahmatullah</div>
-								</div>
-							</div>
+								);
+							})}
 						</div>
 					</div>
 				</div>
-			</Container>
+			</div>
 		</section>
 	);
 };
