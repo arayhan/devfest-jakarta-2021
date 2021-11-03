@@ -1,31 +1,49 @@
-import { Link } from "react-router-dom";
-import { ROUTES } from "../../routes";
+import { Link, NavLink } from "react-router-dom";
+import { MdLaunch, MdLink, MdShare } from "react-icons/md";
+import { ROUTES, HEADER_ROUTES } from "../../routes";
 import { Container } from "../Container";
 
 export const Header = () => {
 	return (
-		<header className="shadow-md py-5">
-			<Container className="flex items-center justify-between">
-				<div>
-					<Link to={ROUTES.HOME}>
-						<img
-							className="w-28"
-							src={require("../../assets/images/gdg-logo.png").default}
-							alt="GDG Logo"
-						/>
-					</Link>
-				</div>
-				<nav>
-					<a
-						className="text-gray-500 hover:text-blue-800 transition-all p-6 hover:bg-gray-100"
-						href="https://gdg.community.dev/"
-						target="_blank"
-						rel="noreferrer"
+		<header className="relative shadow-md">
+			<div className="absolute left-10 top-1/2 transform -translate-y-1/2">
+				<Link to={ROUTES.HOME}>
+					<img
+						className="w-64"
+						src={require("../../assets/images/gdg-logo.svg").default}
+						alt="GDG Logo"
+					/>
+				</Link>
+			</div>
+
+			<nav className="flex items-center justify-center">
+				{HEADER_ROUTES.map((route) => (
+					<NavLink
+						activeClassName="border-blue-500 text-blue-500"
+						className="p-6 text-gray-400 border-b-2 border-transparent hover:bg-gray-50 transition hover:text-blue-500"
+						to={route.path}
 					>
-						Register
-					</a>
-				</nav>
-			</Container>
+						{route.title}
+					</NavLink>
+				))}
+			</nav>
+
+			<div className="absolute right-10 top-1/2 transform -translate-y-1/2 flex items-center space-x-3">
+				<a
+					className="bg-blue-500 flex items-center rounded-full px-6 py-3 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-600"
+					href="https://gdg.community.dev/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<span className="tracking-wider">Register</span>
+					<span>
+						<MdLaunch size={16} />
+					</span>
+				</a>
+				<button className="p-3 text-gray-500 rounded-full hover:bg-gray-100 transition">
+					<MdShare size={20} />
+				</button>
+			</div>
 		</header>
 	);
 };
