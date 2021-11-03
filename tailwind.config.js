@@ -18,8 +18,8 @@ module.exports = {
 	},
 	variants: {
 		extend: {
-			padding: ["hover"],
-			space: ["hover"],
+			space: ["hover", "focus"],
+			padding: ["hover, group-hover"],
 		},
 	},
 	plugins: [
