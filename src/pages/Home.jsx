@@ -1,6 +1,6 @@
 import { Banner } from "../components/sections/Banner";
 import { Topics } from "../components/sections/Topics";
-import { Speakers } from "../components/sections/Speakers";
+import { SpeakersSection } from "../components/sections/SpeakersSection";
 import { Agenda } from "../components/sections/Agenda";
 import { Organizers } from "../components/sections/Organizers";
 import { CTA } from "../components/sections/CTA";
@@ -13,7 +13,7 @@ export const Home = () => {
 			<Banner />
 			<About />
 			<Streams />
-			<Speakers />
+			<SpeakersSection />
 			<CTA />
 		</div>
 	);

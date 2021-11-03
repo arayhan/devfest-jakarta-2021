@@ -4,6 +4,7 @@ import { Home } from "./pages/Home";
 import { Header } from "./components/layout/Header/Header";
 import { Footer } from "./components/layout/Footer";
 import { ROUTES } from "./routes";
+import { Speakers } from "./pages/Speakers";
 
 function App() {
 	const headerRef = useRef();
@@ -21,6 +22,12 @@ function App() {
 
 			<div style={{ marginTop: headerHeight }}>
 				<Switch>
+					<Route path={ROUTES.SPEAKERS}>
+						<Speakers />
+					</Route>
+					<Route path={ROUTES.SCHEDULES}>
+						<Home />
+					</Route>
 					<Route path={ROUTES.HOME}>
 						<Home />
 					</Route>
