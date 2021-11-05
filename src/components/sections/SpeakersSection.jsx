@@ -36,7 +36,7 @@ export const SpeakersSection = ({ featured }) => {
 			{featured && (
 				<div className="flex items-center justify-start">
 					<Link
-						className="group transition-all px-5 py-2 text-blue-700 rounded-md flex items-center space-x-5"
+						className="group transition-all px-5 py-2 text-blue-700 rounded-md flex items-center space-x-5 hover:bg-gray-50"
 						to={ROUTES.SPEAKERS}
 					>
 						<span>See All Speakers</span>
