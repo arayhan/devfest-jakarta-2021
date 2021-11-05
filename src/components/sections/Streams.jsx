@@ -9,7 +9,7 @@ export const Streams = () => {
 		<div className="bg-gray-100 py-16">
 			<Container>
 				<div className="space-y-14">
-					<div className="flex flex-wrap justify-center">
+					<div className="grid lg:grid-cols-3 gap-6">
 						<StreamCard
 							thumbnail={require("../../assets/images/banner.png").default}
 							day="1"
