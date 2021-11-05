@@ -78,6 +78,7 @@ export const About = () => {
 						<ReactPlayer
 							width="100%"
 							url="https://www.youtube.com/watch?v=7BqKlQc6-Qc"
+							controls
 						/>
 					</div>
 				</div>
