@@ -1,5 +1,3 @@
-import { Container } from "../Container";
-
 export const Agenda = ({ agendas }) => {
 	return (
 		<section>

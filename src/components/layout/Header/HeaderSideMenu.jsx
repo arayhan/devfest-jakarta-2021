@@ -1,4 +1,4 @@
-import { MdLaunch, MdShare } from "react-icons/md";
+import { MdLaunch } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import { ROUTES, HEADER_ROUTES } from "../../../routes";

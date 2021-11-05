@@ -1,4 +1,3 @@
-import { Container } from "../Container";
 import SPEAKERS_DATA from "../../data/speakers.json";
 import { SpeakerCard } from "../SpeakerCard";
 import { ROUTES } from "../../routes";
