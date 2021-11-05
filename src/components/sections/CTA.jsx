@@ -18,7 +18,7 @@ export const CTA = () => {
 				</div>
 				<div>
 					<a
-						className="bg-blue-700 px-8 py-3 rounded-md text-white"
+						className="bg-blue-700 hover:bg-blue-800 transition-all px-8 py-3 rounded-md text-white"
 						href="https://gdg.community.dev/devfest/"
 						target="_blank"
 						rel="noreferrer"
