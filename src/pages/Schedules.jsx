@@ -21,7 +21,7 @@ export const Schedules = () => {
 				<div className="space-y-3">
 					<h1 className="text-6xl font-bold">Schedules.</h1>
 					<p className="text-xl text-gray-500">
-						Follow code demonstrations by our expert speakers on 5 different
+						Follow code demonstrations by our expert speakers on 3 different
 						tracks. Check out the schedule below and don't forget to mark your
 						calendar so that you don't miss out on any sessions.
 					</p>
