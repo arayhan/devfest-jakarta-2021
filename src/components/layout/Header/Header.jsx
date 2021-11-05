@@ -4,7 +4,10 @@ import { HeaderMobile } from "./HeaderMobile";
 
 export const Header = forwardRef((props, ref) => {
 	return (
-		<header ref={ref} className="fixed top-0 left-0 w-full bg-white shadow-md">
+		<header
+			ref={ref}
+			className="fixed z-20 top-0 left-0 w-full bg-white shadow-md"
+		>
 			<HeaderDesktop />
 			<HeaderMobile />
 		</header>
