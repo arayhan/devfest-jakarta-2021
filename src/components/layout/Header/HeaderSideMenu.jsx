@@ -34,7 +34,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
 							exact
 							key={route.path}
 							activeClassName="border-blue-500 text-blue-700"
-							className="p-6 text-gray-400 border-l-4 border-transparent hover:bg-gray-50 transition hover:text-blue-700"
+							className="px-6 py-4 text-gray-400 border-l-4 border-transparent hover:bg-gray-50 transition hover:text-blue-700"
 							to={route.path}
 						>
 							{route.title}
