@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { MdLaunch, MdShare } from "react-icons/md";
+import { MdLaunch } from "react-icons/md";
 import { ROUTES, HEADER_ROUTES } from "../../../routes";
 
 export const HeaderDesktop = () => {
@@ -32,7 +32,7 @@ export const HeaderDesktop = () => {
 			<div className="flex absolute right-10 top-1/2 transform -translate-y-1/2 items-center space-x-3">
 				<a
 					className="bg-blue-700 flex items-center rounded-full px-6 py-3 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-700"
-					href="https://gdg.community.dev/"
+					href="https://gdg.community.dev/events/details/google-gdg-jakarta-presents-gdg-jakarta-devfest-2021/"
 					target="_blank"
 					rel="noreferrer"
 				>
@@ -41,9 +41,6 @@ export const HeaderDesktop = () => {
 						<MdLaunch size={16} />
 					</span>
 				</a>
-				<button className="p-3 text-gray-500 rounded-full hover:bg-gray-100 transition">
-					<MdShare size={20} />
-				</button>
 			</div>
 		</div>
 	);
