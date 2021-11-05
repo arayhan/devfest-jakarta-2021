@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import SPEAKERS_DATA from "../../data/speakers.json";
+import { SPEAKERS_DATA } from "../../data/speakers";
 import { SpeakerCard } from "../SpeakerCard";
 
 export const SpeakersSection = ({ featured }) => {

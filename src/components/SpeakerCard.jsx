@@ -13,10 +13,10 @@ export const SpeakerCard = ({
 		<div className={className}>
 			<div className={`shadow-lg bg-white rounded-lg`}>
 				<div className="flex flex-col items-center px-3 py-6 border-b space-y-6">
-					<div className="w-60 md:w-52 lg:w-60 px-8">
-						<div>
+					<div className="md:w-52 lg:w-60 px-8">
+						<div className="w-52 h-52">
 							<img
-								className="w-full rounded-full"
+								className="w-full h-full rounded-full object-cover"
 								src={avatar_url}
 								alt={name}
 							/>
