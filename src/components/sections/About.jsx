@@ -48,9 +48,9 @@ export const About = () => {
 							<span className="text-base">Live on Youtube</span>
 						</div>
 					</div>
-					<div className="flex items-center space-x-6">
+					<div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-6">
 						<a
-							className="bg-blue-700 inline-flex items-center rounded-full px-6 py-3 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-800 hover:px-8"
+							className="w-full md:w-auto bg-blue-700 inline-flex items-center justify-center rounded-full px-6 py-3 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-800 hover:px-8"
 							href="https://gdg.community.dev/"
 							target="_blank"
 							rel="noreferrer"
@@ -61,7 +61,7 @@ export const About = () => {
 							</span>
 						</a>
 						<a
-							className="border-blue-700 border inline-flex items-center rounded-full px-6 py-3 text-sm text-blue-700 space-x-3 transition-all hover:bg-gray-50 hover:px-8"
+							className="w-full md:w-auto border-blue-700 border inline-flex items-center justify-center rounded-full px-6 py-3 text-sm text-blue-700 space-x-3 transition-all hover:bg-gray-50 hover:px-8"
 							href="https://gdg.community.dev/devfest/"
 							target="_blank"
 							rel="noreferrer"
