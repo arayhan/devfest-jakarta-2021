@@ -45,7 +45,7 @@ export const Schedules = () => {
 					{activeSchedule.topic} Day
 				</div>
 
-				<Agenda agendas={activeSchedule.agenda} />
+				<Agenda data={activeSchedule.agenda} />
 			</Container>
 		</div>
 	);
