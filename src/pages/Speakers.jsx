@@ -13,7 +13,7 @@ export const Speakers = () => {
 						beyond.
 					</p>
 				</div>
-				<SpeakersSection showAll />
+				<SpeakersSection />
 			</Container>
 		</div>
 	);

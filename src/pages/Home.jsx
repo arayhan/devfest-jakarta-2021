@@ -24,7 +24,7 @@ export const Home = () => {
 							country and beyond.
 						</p>
 					</div>
-					<SpeakersSection />
+					<SpeakersSection featured />
 				</Container>
 			</section>
 
