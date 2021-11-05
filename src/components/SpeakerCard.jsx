@@ -12,21 +12,20 @@ export const SpeakerCard = ({
 	return (
 		<div className={className}>
 			<div className={`shadow-lg bg-white rounded-lg`}>
-				<div className="flex flex-col items-center px-3 py-6 border-b space-y-6">
-					<div className="md:w-52 lg:w-60 px-8">
-						<div className="w-52 h-52">
-							<img
-								className="w-full h-full rounded-full object-cover"
-								src={avatar_url}
-								alt={name}
-							/>
-						</div>
+				<div className="flex flex-col items-center py-6 border-b space-y-6">
+					<div className="">
+						<img
+							className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
+							src={avatar_url}
+							alt={name}
+						/>
 					</div>
 					<div className="w-full space-y-6 text-center">
 						<div className="space-y-1">
 							<h1 className="text-lg font-semibold text-gray-700">{name}</h1>
-							<div className="text-gray-500 text-sm">
-								{roles} @{institution}
+							<div className="text-gray-500 text-sm space-y-1">
+								<div>{roles}</div>
+								<div>{institution}</div>
 							</div>
 						</div>
 						<div className="flex justify-center text-gray-500">

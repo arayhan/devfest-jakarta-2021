@@ -7,7 +7,7 @@ export const SPEAKERS_DATA = [
 		roles: "Lead Data",
 		featured_speaker: true,
 		social_media: {
-			linkedin: "https://www.linkedin.com/in/ardyadipta",
+			// linkedin: "https://www.linkedin.com/in/ardyadipta",
 		},
 	},
 	{
