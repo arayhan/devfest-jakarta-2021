@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Fade from "react-reveal/Fade";
 import { SPEAKERS_DATA } from "../../data/speakers";
 import { SpeakerCard } from "../SpeakerCard";
 
