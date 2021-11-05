@@ -5,34 +5,24 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { FiChevronRight } from "react-icons/fi";
 
 export const SpeakersSection = ({ showAll }) => {
+	SPEAKERS_DATA.map((speaker, index) =>
+		showAll && index < 5 ? SPEAKERS_DATA[index] : speaker
+	);
+
 	return (
 		<div className="space-y-14">
-			<div className="flex justify-center flex-wrap">
-				{SPEAKERS_DATA.map((speaker, index) =>
-					!showAll ? (
-						index < 4 && (
-							<SpeakerCard
-								className="sm:w-1/3 lg:w-1/4 p-3"
-								name={speaker.name}
-								institution={speaker.institution}
-								topic={speaker.topic}
-								avatar_url={speaker.avatar_url}
-								roles={speaker.roles}
-								social_media={speaker.social_media}
-							/>
-						)
-					) : (
-						<SpeakerCard
-							className="sm:w-1/3 lg:w-1/4 p-3"
-							name={speaker.name}
-							institution={speaker.institution}
-							topic={speaker.topic}
-							avatar_url={speaker.avatar_url}
-							roles={speaker.roles}
-							social_media={speaker.social_media}
-						/>
-					)
-				)}
+			<div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6">
+				{SPEAKERS_DATA.map((speaker) => (
+					<SpeakerCard
+						className="w-full"
+						name={speaker.name}
+						institution={speaker.institution}
+						topic={speaker.topic}
+						avatar_url={speaker.avatar_url}
+						roles={speaker.roles}
+						social_media={speaker.social_media}
+					/>
+				))}
 			</div>
 			{!showAll && (
 				<div className="flex items-center justify-start">
