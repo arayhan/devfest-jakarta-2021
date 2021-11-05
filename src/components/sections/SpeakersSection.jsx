@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
 import SPEAKERS_DATA from "../../data/speakers.json";
 import { SpeakerCard } from "../SpeakerCard";
-import { ROUTES } from "../../routes";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import { FiChevronRight } from "react-icons/fi";
 
 export const SpeakersSection = ({ featured }) => {
 	const [data, setData] = useState(SPEAKERS_DATA);
@@ -33,19 +30,6 @@ export const SpeakersSection = ({ featured }) => {
 					/>
 				))}
 			</div>
-			{featured && (
-				<div className="flex items-center justify-start">
-					<Link
-						className="group transition-all px-5 py-2 text-blue-700 rounded-md flex items-center space-x-5 hover:bg-gray-50"
-						to={ROUTES.SPEAKERS}
-					>
-						<span>See All Speakers</span>
-						<span className="transition-all transform group-hover:pl-2">
-							<FiChevronRight />
-						</span>
-					</Link>
-				</div>
-			)}
 		</div>
 	);
 };
