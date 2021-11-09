@@ -16,20 +16,20 @@ export const Home = () => {
 				<Banner />
 			</Fade>
 
-			<Fade>
+			<Fade right>
 				<About />
 			</Fade>
 
-			<Fade>
+			<Fade left>
 				<Streams />
 			</Fade>
 
-			<Fade>
+			<Fade down>
 				<section className="py-24">
 					<Container className="space-y-14">
 						<div className="space-y-3">
 							<h1 className="text-4xl text-blue-700 font-semibold">
-								Featured Speakers
+								Speakers
 							</h1>
 							<p className="text-lg text-gray-500">
 								Our speakers are influential folks & allies who have been
@@ -39,7 +39,7 @@ export const Home = () => {
 						</div>
 						<SpeakersSection featured />
 
-						<div className="flex items-center justify-start">
+						{/* <div className="flex items-center justify-start">
 							<Link
 								className="group transition-all px-5 py-2 text-blue-700 rounded-md flex items-center space-x-5 hover:bg-gray-50"
 								to={ROUTES.SPEAKERS}
@@ -49,7 +49,7 @@ export const Home = () => {
 									<FiChevronRight />
 								</span>
 							</Link>
-						</div>
+						</div> */}
 					</Container>
 				</section>
 			</Fade>

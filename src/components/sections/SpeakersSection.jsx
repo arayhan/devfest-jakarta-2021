@@ -12,7 +12,7 @@ export const SpeakersSection = ({ featured }) => {
 				(speaker) => speaker.featured_speaker === true
 			);
 
-			setData(filteredData);
+			setData(SPEAKERS_DATA);
 		}
 	}, [featured]);
 

@@ -19,7 +19,7 @@ export const Schedules = () => {
 	return (
 		<div>
 			<Container className="py-24 space-y-12">
-				<Fade>
+				<Fade top>
 					<div className="space-y-3">
 						<h1 className="text-6xl font-bold">Schedules.</h1>
 						<p className="text-xl text-gray-500">
@@ -30,7 +30,7 @@ export const Schedules = () => {
 					</div>
 				</Fade>
 
-				<Fade>
+				<Fade top>
 					<div className="flex border-b overflow-x-auto">
 						{TABS_LABEL.map((tab, index) => (
 							<button

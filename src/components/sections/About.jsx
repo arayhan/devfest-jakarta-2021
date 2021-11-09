@@ -39,7 +39,13 @@ export const About = () => {
 							<div className="w-8 flex justify-center">
 								<MdSchedule size={24} />
 							</div>
-							<span className="text-base">2 PM to 4 PM</span>
+							<span className="text-base">Friday 6.30 PM to 9.30 PM</span>
+						</div>
+						<div className="flex items-center text-gray-500 space-x-3">
+							<div className="w-8 flex justify-center">
+								<MdSchedule size={24} />
+							</div>
+							<span className="text-base">Saturday 1.00 PM to 4.00 PM</span>
 						</div>
 						<div className="flex items-center text-gray-500 space-x-3">
 							<div className="w-8 flex justify-center">
