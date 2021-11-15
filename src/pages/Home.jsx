@@ -24,13 +24,11 @@ export const Home = () => {
 				<Streams />
 			</Fade>
 
-			<Fade down>
+			<Fade>
 				<section className="py-24">
 					<Container className="space-y-14">
 						<div className="space-y-3">
-							<h1 className="text-4xl text-blue-700 font-semibold">
-								Speakers
-							</h1>
+							<h1 className="text-4xl text-blue-700 font-semibold">Speakers</h1>
 							<p className="text-lg text-gray-500">
 								Our speakers are influential folks & allies who have been
 								associated with communities within their organisations, cities,

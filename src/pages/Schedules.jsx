@@ -20,7 +20,7 @@ export const Schedules = () => {
 		<div>
 			<Container className="py-24 space-y-12">
 				<Fade top>
-					<div className="space-y-3">
+					<div className="space-y-5">
 						<h1 className="text-6xl font-bold">Schedules.</h1>
 						<p className="text-xl text-gray-500">
 							Follow code demonstrations by our expert speakers on 3 different

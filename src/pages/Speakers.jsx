@@ -6,8 +6,8 @@ export const Speakers = () => {
 	return (
 		<div>
 			<Container className="py-24 space-y-24">
-				<Fade>
-					<div className="space-y-3">
+				<Fade top>
+					<div className="space-y-5">
 						<h1 className="text-6xl font-bold">Speakers.</h1>
 						<p className="text-xl text-gray-500">
 							Our speakers are influential folks & allies who have been
@@ -15,6 +15,8 @@ export const Speakers = () => {
 							country and beyond.
 						</p>
 					</div>
+				</Fade>
+				<Fade>
 					<SpeakersSection />
 				</Fade>
 			</Container>
