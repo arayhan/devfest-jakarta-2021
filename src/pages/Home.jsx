@@ -8,6 +8,7 @@ import { About } from "../components/sections/About";
 import { Streams } from "../components/sections/Streams";
 import { Container } from "../components/Container";
 import { ROUTES } from "../routes";
+import { FAQ } from "../components/sections/FAQ";
 
 export const Home = () => {
 	return (
@@ -48,6 +49,22 @@ export const Home = () => {
 								</span>
 							</Link>
 						</div> */}
+					</Container>
+				</section>
+			</Fade>
+
+			<Fade>
+				<section className="py-24">
+					<Container className="space-y-14">
+						<div className="space-y-3">
+							<h1 className="text-4xl text-blue-700 font-semibold">
+								Frequently asked questions
+							</h1>
+							<p className="text-lg text-gray-500">
+								Need Answers? Everything you need to know.
+							</p>
+						</div>
+						<FAQ />
 					</Container>
 				</section>
 			</Fade>
