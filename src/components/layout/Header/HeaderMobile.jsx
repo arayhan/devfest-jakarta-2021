@@ -14,7 +14,7 @@ export const HeaderMobile = () => {
 			<HeaderSideMenu show={showSideMenu} onClose={handleClose} />
 			<div className="px-8 sm:px-10">
 				<div className="flex items-center justify-between py-3 space-x-6">
-					<Link to={ROUTES.HOME}>
+					<Link to={ROUTES.HOME} onClick={handleClose}>
 						<img
 							className="w-64"
 							src={require("../../../assets/images/gdg-logo.svg").default}

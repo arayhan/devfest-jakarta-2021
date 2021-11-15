@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Header } from "./components/layout/Header/Header";
 import { Footer } from "./components/layout/Footer";
@@ -9,6 +10,7 @@ import { Schedules } from "./pages/Schedules";
 import { Organizers } from "./pages/Organizers";
 
 function App() {
+	const history = useHistory();
 	const headerRef = useRef();
 
 	const [headerHeight, setHeaderHeight] = useState(0);
@@ -16,6 +18,11 @@ function App() {
 	useEffect(() => {
 		setHeaderHeight(headerRef.current ? headerRef.current.clientHeight : 0);
 	}, [headerRef]);
+
+	useEffect(() => {
+		const unlisten = history.listen(() => window.scrollTo({ top: 0 }));
+		return () => unlisten();
+	}, []);
 
 	return (
 		<div className="App">
