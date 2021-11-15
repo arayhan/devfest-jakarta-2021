@@ -1,27 +1,41 @@
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-export const OrganizerCard = ({ className }) => {
+export const OrganizerCard = ({
+	name,
+	role,
+	avatar_url,
+	social_media,
+	className,
+}) => {
 	return (
 		<div className={`${className}`}>
-			<div className="shadow-md rounded-md p-6 space-y-6">
-				<div className="w-44 h-44">
+			<div className="shadow-md rounded-md flex flex-col items-center py-6 border-b space-y-6 h-full">
+				<div className="">
 					<img
-						className="w-full h-full object-cover rounded-full"
-						src="https://internationalwomensday-2020.web.app/assets/images/teams/dana.jpg"
-						alt=""
+						className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
+						src={avatar_url}
+						alt={name}
 					/>
 				</div>
 				<div className="text-center">
-					<div className="font-semibold text-gray-700">R. Surahutomo A.P</div>
-					<div className="text-gray-400">Program</div>
+					<div className="font-semibold text-gray-700">{name}</div>
+					<div className="text-gray-400">{role}</div>
 				</div>
-				<div className="flex justify-center">
-					<a
-						className="text-gray-400 hover:text-blue-700 transition-all"
-						href="facebook.com"
-					>
-						<FaFacebook size={18} />
-					</a>
+				<div className="flex justify-center text-gray-500">
+					{social_media &&
+						Object.keys(social_media).map((socmed) => (
+							<a
+								className="hover:text-blue-700 transition-all"
+								href={social_media[socmed]}
+								target="_blank"
+								rel="noreferrer"
+							>
+								{socmed === "facebook" && <FaFacebook size={18} />}
+								{socmed === "twitter" && <FaTwitter size={18} />}
+								{socmed === "instagram" && <FaInstagram size={18} />}
+								{socmed === "linkedin" && <FaLinkedin size={18} />}
+							</a>
+						))}
 				</div>
 			</div>
 		</div>
