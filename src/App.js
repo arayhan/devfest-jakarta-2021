@@ -6,6 +6,7 @@ import { Footer } from "./components/layout/Footer";
 import { ROUTES } from "./routes";
 import { Speakers } from "./pages/Speakers";
 import { Schedules } from "./pages/Schedules";
+import { Organizers } from "./pages/Organizers";
 
 function App() {
 	const headerRef = useRef();
@@ -27,6 +28,9 @@ function App() {
 					</Route>
 					<Route path={ROUTES.SCHEDULES}>
 						<Schedules />
+					</Route>
+					<Route path={ROUTES.ORGANIZERS}>
+						<Organizers />
 					</Route>
 					<Route path={ROUTES.HOME}>
 						<Home />
