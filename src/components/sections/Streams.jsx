@@ -16,7 +16,7 @@ export const Streams = () => {
 							topic="Machine Learning Day"
 							date="Friday, 26 November 2021"
 							time="18:15 - 21:40"
-							url="https://www.youtube.com/watch?v=S2r-f4KdhFI"
+							url="https://youtu.be/SoRgRf3B-0w"
 						/>
 						<StreamCard
 							thumbnail={require("../../assets/images/banner.png").default}
@@ -24,7 +24,7 @@ export const Streams = () => {
 							topic="Android Day"
 							date="Saturday, 27 November 2021"
 							time="12:45 - 16:30"
-							url="https://www.youtube.com/watch?v=Ug8gwMiLezE"
+							url="https://youtu.be/o6RxDaHziFU"
 						/>
 						<StreamCard
 							day="3"
@@ -32,7 +32,7 @@ export const Streams = () => {
 							topic="Web Day"
 							date="Sunday, 28 November 2021"
 							time="12:45 - 16:30"
-							url="https://www.youtube.com/watch?v=YSlHdXpJbME"
+							url="https://youtu.be/NQfB0gXFryE"
 						/>
 					</div>
 					<div className="flex items-center justify-start">
