@@ -38,7 +38,7 @@ export const SPEAKERS_DATA = [
 		social_media: {},
 	},
 	{
-		name: "Bianca Xiemes",
+		name: "Bianca Ximenes",
 		topic: "-",
 		avatar_url: require("../assets/images/speakers/Bianca Ximenes MAO.jpg")
 			.default,
