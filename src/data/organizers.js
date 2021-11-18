@@ -91,7 +91,7 @@ export const ORGANIZERS_DATA = [
 		name: "Ahmed Rayhan Primadedas",
 		event_role: "Web Landing Page",
 		professional_role: "Web Frontend Developer",
-		institution: "Founderplus",
+		institution: "Founderplus.id",
 		avatar_url: require("../assets/images/organizers/Rayhan.png").default,
 		social_media: {
 			linkedin: "https://www.linkedin.com/in/arayhan",
