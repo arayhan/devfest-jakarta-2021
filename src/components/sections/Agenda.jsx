@@ -23,9 +23,17 @@ export const Agenda = ({ data }) => {
 													{agenda.timezone}
 												</div>
 											</div>
-											<div className="w-full p-8 pr-0">
-												<div className="text-lg md:text-2xl text-gray-700">
+											<div className="w-full p-8 pr-0 space-y-3">
+												<div className="text-md md:text-xl text-gray-700">
 													{agenda.title}
+												</div>
+												{agenda.topic && (
+													<div className="text-lg md:text-2xl text-blue-700 font-semibold">
+														"{agenda.topic}"
+													</div>
+												)}
+												<div className="text-sm md:text-md text-gray-400">
+													{agenda.speaker}
 												</div>
 												<div className="italic">{agenda.speakers}</div>
 											</div>
