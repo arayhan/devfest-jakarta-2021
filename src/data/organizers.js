@@ -81,7 +81,8 @@ export const ORGANIZERS_DATA = [
 		event_role: "Streamer - Streamyard",
 		professional_role: "System Engineer",
 		institution: "IBMJTI",
-		avatar_url: require("../assets/images/organizers/Arisetiaji.jpeg").default,
+		avatar_url: require("../assets/images/organizers/Arisetiaji 2.jpeg")
+			.default,
 		social_media: {
 			linkedin: "https://www.linkedin.com/in/arisetiaji/",
 		},
