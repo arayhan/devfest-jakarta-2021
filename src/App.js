@@ -8,6 +8,7 @@ import { ROUTES } from "./routes";
 import { Speakers } from "./pages/Speakers";
 import { Schedules } from "./pages/Schedules";
 import { Organizers } from "./pages/Organizers";
+import "./utils/firebase";
 
 function App() {
 	const history = useHistory();
@@ -22,7 +23,7 @@ function App() {
 	useEffect(() => {
 		const unlisten = history.listen(() => window.scrollTo({ top: 0 }));
 		return () => unlisten();
-	}, []);
+	}, [history]);
 
 	return (
 		<div className="App">
