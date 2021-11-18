@@ -29,7 +29,9 @@ export const Organizers = () => {
 									className="w-full"
 									name={organizer.name}
 									avatar_url={organizer.avatar_url}
-									role={organizer.role}
+									event_role={organizer.event_role}
+									professional_role={organizer.professional_role}
+									institution={organizer.institution}
 									social_media={organizer.social_media}
 								/>
 							))}

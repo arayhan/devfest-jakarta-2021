@@ -2,14 +2,16 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const OrganizerCard = ({
 	name,
-	role,
+	event_role,
+	professional_role,
+	institution,
 	avatar_url,
 	social_media,
 	className,
 }) => {
 	return (
 		<div className={`${className}`}>
-			<div className="shadow-md rounded-md flex flex-col items-center px-3 py-6 border-b space-y-6 h-full">
+			<div className="shadow-md rounded-md flex flex-col justify-between items-center px-3 py-6 border-b space-y-6 h-full">
 				<div className="">
 					<img
 						className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
@@ -17,9 +19,14 @@ export const OrganizerCard = ({
 						alt={name}
 					/>
 				</div>
-				<div className="text-center">
+				<div className="text-center space-y-2">
 					<div className="font-semibold text-gray-700">{name}</div>
-					<div className="text-gray-400">{role}</div>
+					<div>
+						<div className="text-gray-400 text-sm">{professional_role}</div>
+						{institution && (
+							<div className="text-gray-400 text-sm">@ {institution}</div>
+						)}
+					</div>
 				</div>
 				<div className="flex justify-center text-gray-500">
 					{social_media &&

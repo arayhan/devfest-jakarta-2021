@@ -1,7 +1,9 @@
 export const ORGANIZERS_DATA = [
 	{
 		name: "Muh Isfhani Ghiath",
-		role: "Publisher",
+		event_role: "Publisher",
+		professional_role: "Sr. Software Engineer, Android",
+		institution: "Tokopedia",
 		avatar_url:
 			"https://media-exp1.licdn.com/dms/image/C5603AQE5ZmXKWUtdFg/profile-displayphoto-shrink_200_200/0/1617364445796?e=1642636800&v=beta&t=3gI29iIezdSbjufj8xRWpf8aL6XwC3KQR996NZFB0Is",
 		social_media: {
@@ -10,7 +12,9 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "Toyib Nurseha",
-		role: "Speaker - Web",
+		event_role: "Speaker - Web",
+		professional_role: "Product Engineer Android",
+		institution: "CoLearn",
 		avatar_url:
 			"https://media-exp1.licdn.com/dms/image/C5603AQHizAB3MrYC1Q/profile-displayphoto-shrink_200_200/0/1632736753957?e=1642636800&v=beta&t=K1hd0qiLfIP92WCQcHDFevNvs8H0mqrcoLrJpsnSS40",
 		social_media: {
@@ -19,7 +23,9 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "Alzahid Muhasabah",
-		role: "Speaker - AI/ML",
+		event_role: "Speaker - AI/ML",
+		professional_role: "Software Engineer in Engineering Productivity",
+		institution: "Tokopedia",
 		avatar_url:
 			"https://media-exp1.licdn.com/dms/image/C5603AQEv6SqIcJhrYQ/profile-displayphoto-shrink_200_200/0/1592725677405?e=1642636800&v=beta&t=c8d-czlx8G404VqRLkaq6neVQgiqn3H5_NlmBKvFLwM",
 		social_media: {
@@ -28,7 +34,9 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "Hana Faiqoh",
-		role: "Host Day 1",
+		event_role: "Host Day 1",
+		professional_role: "Social Media Content Manager",
+		institution: "DTSense",
 		avatar_url:
 			"https://media-exp1.licdn.com/dms/image/C5603AQH0la0Fp4OcxQ/profile-displayphoto-shrink_200_200/0/1610116208548?e=1642636800&v=beta&t=UEFhfvG7v_StG69orSw4KcA-c0yRdAoqmRavxMZnHXs",
 		social_media: {
@@ -37,7 +45,9 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "Qassandra Chaidir",
-		role: "Host Day 2",
+		event_role: "Host Day 2",
+		professional_role: "System Engineer - Cloud Platform",
+		institution: "Tokopedia",
 		avatar_url:
 			"https://media-exp1.licdn.com/dms/image/C5603AQEDJAVHX7FzjQ/profile-displayphoto-shrink_200_200/0/1634490878792?e=1642636800&v=beta&t=zgTdM8iRTbqlraXB3iEnjgGRNnGDgohpbEzAIQqHGbw",
 		social_media: {
@@ -46,7 +56,9 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "Cindy Permatasari",
-		role: "Host Day 3",
+		event_role: "Host Day 3",
+		professional_role: "Product Manager",
+		institution: "Growth EDUFUND",
 		avatar_url:
 			"https://media-exp1.licdn.com/dms/image/C5603AQHUwPrGIJIC3w/profile-displayphoto-shrink_200_200/0/1629708530886?e=1642636800&v=beta&t=FnK3QEXkMj0VqI3fbIpPzKmE6AyoQMuCQ9fpXnT_L1M",
 		social_media: {
@@ -55,7 +67,9 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "R Surahutomo Aziz Pradana",
-		role: "Program",
+		event_role: "Program",
+		professional_role: "Full Stack Engineer",
+		institution: "PT Bank BTPN Tbk",
 		avatar_url:
 			"https://internationalwomensday-2020.web.app/assets/images/teams/dana.jpg",
 		social_media: {
@@ -64,14 +78,18 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "Ari Setiaji",
-		role: "Streamer - Streamyard",
+		event_role: "Streamer - Streamyard",
+		professional_role: null,
+		institution: null,
 		avatar_url:
 			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
 		social_media: null,
 	},
 	{
 		name: "Ahmed Rayhan Primadedas",
-		role: "Web Landing Page",
+		event_role: "Web Landing Page",
+		professional_role: "Web Frontend Developer",
+		institution: "Founderplus",
 		avatar_url: require("../assets/images/organizers/Rayhan.png").default,
 		social_media: {
 			linkedin: "https://www.linkedin.com/in/arayhan",
@@ -79,7 +97,9 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "R. Rifa Fauzi Komara",
-		role: "Streamer - QnA Question Handler",
+		event_role: "Streamer - QnA Question Handler",
+		professional_role: "Mobile Programmer Senior Associate",
+		institution: "Sinarmas MSIG Life",
 		avatar_url: require("../assets/images/organizers/Rifa F Komara.jpg")
 			.default,
 		social_media: {
@@ -88,21 +108,27 @@ export const ORGANIZERS_DATA = [
 	},
 	{
 		name: "Masqod",
-		role: "Speaker - Mobile",
+		event_role: "Speaker - Mobile",
+		professional_role: null,
+		institution: null,
 		avatar_url:
 			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
 		social_media: null,
 	},
 	{
 		name: "Bayu",
-		role: "Timekeeper",
+		event_role: "Timekeeper",
+		professional_role: null,
+		institution: null,
 		avatar_url:
 			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
 		social_media: null,
 	},
 	{
 		name: "Agum",
-		role: "Streamer - QnA Question Gathering & Form",
+		event_role: "Streamer - QnA Question Gathering & Form",
+		professional_role: null,
+		institution: null,
 		avatar_url:
 			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
 		social_media: null,
