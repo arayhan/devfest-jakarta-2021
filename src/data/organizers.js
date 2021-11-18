@@ -77,13 +77,14 @@ export const ORGANIZERS_DATA = [
 		},
 	},
 	{
-		name: "Ari Setiaji",
+		name: "Arisetiaji",
 		event_role: "Streamer - Streamyard",
-		professional_role: null,
-		institution: null,
-		avatar_url:
-			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
-		social_media: null,
+		professional_role: "System Engineer",
+		institution: "IBMJTI",
+		avatar_url: require("../assets/images/organizers/Arisetiaji.jpeg").default,
+		social_media: {
+			linkedin: "https://www.linkedin.com/in/arisetiaji/",
+		},
 	},
 	{
 		name: "Ahmed Rayhan Primadedas",
