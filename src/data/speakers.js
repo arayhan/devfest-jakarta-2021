@@ -75,11 +75,12 @@ export const SPEAKERS_DATA = [
 		social_media: {},
 	},
 	{
-		name: "Muh Isfhani Ghiath",
+		name: "Andri Suranta Ginting",
 		topic: "-",
-		avatar_url: require("../assets/images/speakers/Isfha.jpg").default,
-		institution: "Tokopedia",
-		roles: "Software Engineer, Android",
+		avatar_url:
+			"https://media-exp1.licdn.com/dms/image/C5603AQEz3PLccQpebQ/profile-displayphoto-shrink_200_200/0/1635743610523?e=1642636800&v=beta&t=yZlt8de00u5nI_LwOgkqugpZ_2cWjO54YdtPsFqgqBk",
+		institution: "Gojek",
+		roles: "Senior Android Engineer",
 		featured_speaker: false,
 		social_media: {},
 	},
