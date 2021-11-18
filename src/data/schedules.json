@@ -27,11 +27,13 @@
 			{
 				"time": "18.55 - 19.35",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 1 Machine Learning - Session"
+				"title": "Speaker 1 Machine Learning - QnA",
+				"topic": "What has COVID-19 taught us about making more responsible models?",
+				"speaker": "Bianca Ximenes"
 			},
 			{
 				"time": "19.35 - 19.40",
-				"title": "Speaker 1 Machine Learning- QnA"
+				"title": "Speaker 1 Machine Learning - QnA"
 			},
 			{
 				"time": "19.40 - 19.45",
@@ -41,7 +43,9 @@
 			{
 				"time": "19.45 - 20.25",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 2 Machine Learning - Session"
+				"title": "Speaker 2 Machine Learning - Session",
+				"topic": "Data Cleaning and Preparation for Machine Learning (Case Study: Covid19 Social Assistance in DIY)",
+				"speaker": "Argha Jiwa Kusuma"
 			},
 			{
 				"time": "20.25 - 20.30",
@@ -56,7 +60,9 @@
 			{
 				"time": "20.35 - 21.15",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 3 Machine Learning - Session"
+				"title": "Speaker 3 Machine Learning - Session",
+				"topic": "Driver Trust and Safety at Gojek",
+				"speaker": "Ardya Dipta Nandaviri"
 			},
 			{
 				"time": "21.15 - 21.20",
@@ -108,7 +114,9 @@
 			{
 				"time": "13.25 - 14.05",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 1 Android - Session"
+				"title": "Speaker 1 Android - Session",
+				"topic": "Android DI -  The Alternate Universe",
+				"speaker": "Budi Oktaviyan"
 			},
 			{
 				"time": "14.05 - 14.15",
@@ -122,7 +130,9 @@
 			{
 				"time": "14.20 - 15.00",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 2 Android - Session"
+				"title": "Speaker 2 Android - Session",
+				"topic": "The Pattern Panacea : Avoid Over and Under Engineering (get things done, keep away burnout at home!)",
+				"speaker": "Raditya Gumay"
 			},
 			{
 				"time": "15.00 - 15.10",
@@ -137,7 +147,9 @@
 			{
 				"time": "15.15 - 15.55",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 3 Android - Session"
+				"title": "Speaker 3 Android - Session",
+				"topic": null,
+				"speaker": "Andri Ginting"
 			},
 			{
 				"time": "15.55 - 16.05",
@@ -189,7 +201,9 @@
 			{
 				"time": "13.25 - 14.05",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 1 Web - Session"
+				"title": "Speaker 1 Web - Session",
+				"topic": "SEO Evolution in WargaBantuWarga.com",
+				"speaker": "Zain Fathoni"
 			},
 			{
 				"time": "14.05 - 14.15",
@@ -204,7 +218,9 @@
 			{
 				"time": "14.20 - 15.00",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 2 Web - Session"
+				"title": "Speaker 2 Web - Session",
+				"topic": "Mengembangkan Aplikasi Web Modern dengan Web Components",
+				"speaker": "Riza Fahmi"
 			},
 			{
 				"time": "15.00 - 15.10",
@@ -219,7 +235,9 @@
 			{
 				"time": "15.15 - 15.55",
 				"timezone": "UTC/GMT +7 hours",
-				"title": "Speaker 3 Web - Session"
+				"title": "Speaker 3 Web - Session",
+				"topic": null,
+				"speaker": "Jefry Dewangga"
 			},
 			{
 				"time": "15.55 - 16.05",
