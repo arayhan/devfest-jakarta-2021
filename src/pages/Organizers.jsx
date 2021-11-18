@@ -25,6 +25,7 @@ export const Organizers = () => {
 						<div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6">
 							{ORGANIZERS_DATA.map((organizer) => (
 								<OrganizerCard
+									key={organizer.name}
 									className="w-full"
 									name={organizer.name}
 									avatar_url={organizer.avatar_url}

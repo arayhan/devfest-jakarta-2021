@@ -25,6 +25,7 @@ export const OrganizerCard = ({
 					{social_media &&
 						Object.keys(social_media).map((socmed) => (
 							<a
+								key={socmed}
 								className="hover:text-blue-700 transition-all"
 								href={social_media[socmed]}
 								target="_blank"
