@@ -12,8 +12,6 @@ export const FAQ = () => {
 		setActiveIndex([...activeIndex]);
 	};
 
-	useEffect(() => console.log(activeIndex), [activeIndex]);
-
 	return (
 		<div>
 			{FAQ_DATA.map((faq, index) => (
