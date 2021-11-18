@@ -77,8 +77,7 @@ export const ORGANIZERS_DATA = [
 	{
 		name: "Ahmed Rayhan Primadedas",
 		role: "Web Landing Page",
-		avatar_url:
-			"https://media-exp1.licdn.com/dms/image/C4D03AQF-60LAhdjbFQ/profile-displayphoto-shrink_200_200/0/1606208110875?e=1642636800&v=beta&t=31aVQuT1FKtIuoldBoiCmdf9zUki43Dnxm95duBif7A",
+		avatar_url: require("../assets/images/organizers/Rayhan.png").default,
 		social_media: {
 			linkedin: "https://www.linkedin.com/in/arayhan",
 		},
