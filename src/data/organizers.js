@@ -66,11 +66,13 @@ export const ORGANIZERS_DATA = [
 		social_media: null,
 	},
 	{
-		name: "Rifa",
+		name: "R. Rifa Fauzi Komara",
 		role: "Streamer - QnA Question Handler",
-		avatar_url:
-			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
-		social_media: null,
+		avatar_url: require("../assets/images/organizers/Rifa F Komara.jpg")
+			.default,
+		social_media: {
+			linkedin: "https://www.linkedin.com/in/rrifafauzikomara/",
+		},
 	},
 	{
 		name: "Ahmed Rayhan Primadedas",
