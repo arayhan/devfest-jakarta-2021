@@ -9,13 +9,6 @@ export const ORGANIZERS_DATA = [
 		},
 	},
 	{
-		name: "Masqod",
-		role: "Speaker - Mobile",
-		avatar_url:
-			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
-		social_media: null,
-	},
-	{
 		name: "Toyib Nurseha",
 		role: "Speaker - Web",
 		avatar_url:
@@ -34,8 +27,8 @@ export const ORGANIZERS_DATA = [
 		},
 	},
 	{
-		name: "Juan",
-		role: "Host Day 1 & 3",
+		name: "Hana Faiqoh",
+		role: "Host Day 1",
 		avatar_url:
 			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
 		social_media: null,
@@ -48,6 +41,13 @@ export const ORGANIZERS_DATA = [
 		social_media: {
 			linkedin: "https://www.linkedin.com/in/qassandrach/",
 		},
+	},
+	{
+		name: "Cindy Permatasari",
+		role: "Host Day 3",
+		avatar_url:
+			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
+		social_media: null,
 	},
 	{
 		name: "R Surahutomo Aziz Pradana",
@@ -66,6 +66,14 @@ export const ORGANIZERS_DATA = [
 		social_media: null,
 	},
 	{
+		name: "Ahmed Rayhan Primadedas",
+		role: "Web Landing Page",
+		avatar_url: require("../assets/images/organizers/Rayhan.png").default,
+		social_media: {
+			linkedin: "https://www.linkedin.com/in/arayhan",
+		},
+	},
+	{
 		name: "R. Rifa Fauzi Komara",
 		role: "Streamer - QnA Question Handler",
 		avatar_url: require("../assets/images/organizers/Rifa F Komara.jpg")
@@ -75,12 +83,11 @@ export const ORGANIZERS_DATA = [
 		},
 	},
 	{
-		name: "Ahmed Rayhan Primadedas",
-		role: "Web Landing Page",
-		avatar_url: require("../assets/images/organizers/Rayhan.png").default,
-		social_media: {
-			linkedin: "https://www.linkedin.com/in/arayhan",
-		},
+		name: "Masqod",
+		role: "Speaker - Mobile",
+		avatar_url:
+			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
+		social_media: null,
 	},
 	{
 		name: "Bayu",
