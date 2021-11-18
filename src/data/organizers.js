@@ -30,8 +30,10 @@ export const ORGANIZERS_DATA = [
 		name: "Hana Faiqoh",
 		role: "Host Day 1",
 		avatar_url:
-			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
-		social_media: null,
+			"https://media-exp1.licdn.com/dms/image/C5603AQH0la0Fp4OcxQ/profile-displayphoto-shrink_200_200/0/1610116208548?e=1642636800&v=beta&t=UEFhfvG7v_StG69orSw4KcA-c0yRdAoqmRavxMZnHXs",
+		social_media: {
+			linkedin: "https://www.linkedin.com/in/hana-faiqoh-9103221aa/",
+		},
 	},
 	{
 		name: "Qassandra Chaidir",
@@ -46,8 +48,10 @@ export const ORGANIZERS_DATA = [
 		name: "Cindy Permatasari",
 		role: "Host Day 3",
 		avatar_url:
-			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
-		social_media: null,
+			"https://media-exp1.licdn.com/dms/image/C5603AQHUwPrGIJIC3w/profile-displayphoto-shrink_200_200/0/1629708530886?e=1642636800&v=beta&t=FnK3QEXkMj0VqI3fbIpPzKmE6AyoQMuCQ9fpXnT_L1M",
+		social_media: {
+			linkedin: "https://www.linkedin.com/in/cindy-permatasari/",
+		},
 	},
 	{
 		name: "R Surahutomo Aziz Pradana",
