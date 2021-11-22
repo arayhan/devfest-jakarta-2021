@@ -35,8 +35,8 @@ export const ORGANIZERS_DATA = [
 	{
 		name: "Hana Faiqoh",
 		event_role: "Host Day 1",
-		professional_role: "Social Media Content Manager",
-		institution: "DTSense",
+		professional_role: "UI/UX Designer",
+		institution: "Social Media Content Manager",
 		avatar_url:
 			"https://media-exp1.licdn.com/dms/image/C5603AQH0la0Fp4OcxQ/profile-displayphoto-shrink_200_200/0/1610116208548?e=1642636800&v=beta&t=UEFhfvG7v_StG69orSw4KcA-c0yRdAoqmRavxMZnHXs",
 		social_media: {
@@ -109,13 +109,15 @@ export const ORGANIZERS_DATA = [
 		},
 	},
 	{
-		name: "Masqod",
+		name: "Qodir Masruri",
 		event_role: "Speaker - Mobile",
-		professional_role: null,
-		institution: null,
+		professional_role: "iOS Developer",
+		institution: "Harmonix Teknologi Peentar",
 		avatar_url:
-			"https://therminic2018.eu/wp-content/uploads/2018/07/dummy-avatar.jpg",
-		social_media: null,
+			"https://media-exp1.licdn.com/dms/image/C5603AQEjDjynTDiHfA/profile-displayphoto-shrink_200_200/0/1633345577547?e=1643241600&v=beta&t=6u4_d2R9r2__rqt0LvaC_2V3fAC7FKgbqRcoMSbKMYE",
+		social_media: {
+			linkedin: "https://id.linkedin.com/in/justmasqod",
+		},
 	},
 	{
 		name: "Bayu",
