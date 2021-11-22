@@ -161,7 +161,7 @@ export const ScheduleData = [
 				time: "15.15 - 15.55",
 				timezone: "UTC/GMT +7 hours",
 				title: "Speaker 3 Android - Session",
-				topic: null,
+				topic: "Server Driven UI",
 				speaker: "Andri Ginting",
 			},
 			{
@@ -254,7 +254,7 @@ export const ScheduleData = [
 				time: "15.15 - 15.55",
 				timezone: "UTC/GMT +7 hours",
 				title: "Speaker 3 Web - Session",
-				topic: null,
+				topic: "Web Development Overview",
 				speaker: "Jefry Dewangga",
 			},
 			{
