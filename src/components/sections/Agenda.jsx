@@ -14,7 +14,7 @@ export const Agenda = ({ data }) => {
 								return (
 									<Fade>
 										<div className="flex border-b">
-											<div className="w-52 border-r text-right p-8 pl-0">
+											<div className="w-28 sm:w-52 border-r text-right p-8 pl-0">
 												<div className="font-semibold text-xl md:text-2xl">
 													{timeStart}
 												</div>
