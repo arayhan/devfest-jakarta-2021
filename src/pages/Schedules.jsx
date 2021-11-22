@@ -2,7 +2,8 @@ import Fade from "react-reveal/Fade";
 import { useState, useEffect } from "react";
 import { Container } from "../components/Container";
 import { Agenda } from "../components/sections/Agenda";
-import ScheduleData from "../data/schedules.json";
+import { ScheduleData } from "../data/schedules";
+import { MdDateRange, MdOndemandVideo } from "react-icons/md";
 
 export const Schedules = () => {
 	const TABS_LABEL = ScheduleData.map((schedule) => schedule.label);
@@ -53,28 +54,35 @@ export const Schedules = () => {
 
 				<Fade>
 					<div className="flex justify-center">
-						{activeSchedule.topic === "Machine Learning" && (
-							<img
-								className="w-10/12"
-								src={require("../assets/images/lighweight-ml.png").default}
-								alt=""
-							/>
-						)}
+						<img className="w-10/12" src={activeSchedule.thumbnail} alt="" />
+					</div>
+				</Fade>
 
-						{activeSchedule.topic === "Android" && (
-							<img
-								className="w-10/12"
-								src={require("../assets/images/lighweight-android.png").default}
-								alt=""
-							/>
-						)}
-
-						{activeSchedule.topic === "Web" && (
-							<img
-								className="w-10/12"
-								src={require("../assets/images/lighweight-web.png").default}
-								alt=""
-							/>
+				<Fade>
+					<div className="flex space-x-3 justify-center">
+						<a
+							className="cursor w-auto bg-red-500 inline-flex items-center justify-center rounded-md px-10 py-3 text-sm text-white space-x-3 transition-all hover:bg-red-400 hover:px-12"
+							href={activeSchedule.youtube_url}
+							target="_blank"
+							rel="noreferrer"
+						>
+							<span>
+								<MdOndemandVideo size={20} />
+							</span>
+							<span>Watch Now</span>
+						</a>
+						{activeSchedule.celendar_url && (
+							<a
+								className="cursor w-auto inline-flex border border-blue-500 items-center justify-center rounded-md px-10 py-3 text-sm text-blue-500 space-x-3 transition-all hover:bg-blue-50 hover:px-12"
+								href={activeSchedule.celendar_url}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<span>
+									<MdDateRange size={20} />
+								</span>
+								<span>Click to reminder</span>
+							</a>
 						)}
 					</div>
 				</Fade>
