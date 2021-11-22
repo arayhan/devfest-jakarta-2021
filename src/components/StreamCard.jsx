@@ -38,7 +38,7 @@ export const StreamCard = ({
 								</div>
 							</div>
 						</div>
-						<div className="flex space-x-3 justify-center">
+						<div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3 justify-center">
 							<a
 								className="w-full border border-red-500 flex items-center justify-center rounded-md px-4 py-3 text-sm text-red-500 space-x-3 transition-all hover:bg-red-50"
 								href={url}

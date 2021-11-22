@@ -54,12 +54,12 @@ export const Schedules = () => {
 
 				<Fade>
 					<div className="flex justify-center">
-						<img className="w-10/12" src={activeSchedule.thumbnail} alt="" />
+						<img className="w-full" src={activeSchedule.thumbnail} alt="" />
 					</div>
 				</Fade>
 
 				<Fade>
-					<div className="flex space-x-3 justify-center">
+					<div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-3 justify-center">
 						<a
 							className="cursor w-auto bg-red-500 inline-flex items-center justify-center rounded-md px-10 py-3 text-sm text-white space-x-3 transition-all hover:bg-red-400 hover:px-12"
 							href={activeSchedule.youtube_url}
