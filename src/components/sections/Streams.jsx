@@ -11,7 +11,9 @@ export const Streams = () => {
 				<div className="space-y-14">
 					<div className="grid lg:grid-cols-3 gap-6">
 						<StreamCard
-							thumbnail={require("../../assets/images/banner.png").default}
+							thumbnail={
+								require("../../assets/images/lighweight-ml.png").default
+							}
 							day="1"
 							topic="Machine Learning Day"
 							date="Friday, 26 November 2021"
@@ -19,7 +21,9 @@ export const Streams = () => {
 							url="https://youtu.be/SoRgRf3B-0w"
 						/>
 						<StreamCard
-							thumbnail={require("../../assets/images/banner.png").default}
+							thumbnail={
+								require("../../assets/images/lighweight-android.png").default
+							}
 							day="2"
 							topic="Android Day"
 							date="Saturday, 27 November 2021"
@@ -28,7 +32,9 @@ export const Streams = () => {
 						/>
 						<StreamCard
 							day="3"
-							thumbnail={require("../../assets/images/banner.png").default}
+							thumbnail={
+								require("../../assets/images/lighweight-web.png").default
+							}
 							topic="Web Day"
 							date="Sunday, 28 November 2021"
 							time="12:45 - 16:30"
