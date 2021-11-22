@@ -51,6 +51,34 @@ export const Schedules = () => {
 					</div>
 				</Fade>
 
+				<Fade>
+					<div className="flex justify-center">
+						{activeSchedule.topic === "Machine Learning" && (
+							<img
+								className="w-10/12"
+								src={require("../assets/images/lighweight-ml.png").default}
+								alt=""
+							/>
+						)}
+
+						{activeSchedule.topic === "Android" && (
+							<img
+								className="w-10/12"
+								src={require("../assets/images/lighweight-android.png").default}
+								alt=""
+							/>
+						)}
+
+						{activeSchedule.topic === "Web" && (
+							<img
+								className="w-10/12"
+								src={require("../assets/images/lighweight-web.png").default}
+								alt=""
+							/>
+						)}
+					</div>
+				</Fade>
+
 				<Agenda data={activeSchedule.agenda} />
 			</Container>
 		</div>
