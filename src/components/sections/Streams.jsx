@@ -3,6 +3,7 @@ import { FiChevronRight } from "react-icons/fi";
 import { ROUTES } from "../../routes";
 import { Container } from "../Container";
 import { StreamCard } from "../StreamCard";
+import { ScheduleData } from "../../data/schedules";
 
 export const Streams = () => {
 	return (
@@ -10,36 +11,17 @@ export const Streams = () => {
 			<Container>
 				<div className="space-y-14">
 					<div className="grid lg:grid-cols-3 gap-6">
-						<StreamCard
-							thumbnail={
-								require("../../assets/images/lighweight-ml.png").default
-							}
-							day="1"
-							topic="Machine Learning Day"
-							date="Friday, 26 November 2021"
-							time="18:15 - 21:40"
-							url="https://youtu.be/SoRgRf3B-0w"
-						/>
-						<StreamCard
-							thumbnail={
-								require("../../assets/images/lighweight-android.png").default
-							}
-							day="2"
-							topic="Android Day"
-							date="Saturday, 27 November 2021"
-							time="12:45 - 16:30"
-							url="https://youtu.be/o6RxDaHziFU"
-						/>
-						<StreamCard
-							day="3"
-							thumbnail={
-								require("../../assets/images/lighweight-web.png").default
-							}
-							topic="Web Day"
-							date="Sunday, 28 November 2021"
-							time="12:45 - 16:30"
-							url="https://youtu.be/NQfB0gXFryE"
-						/>
+						{ScheduleData.map((schedule) => (
+							<StreamCard
+								thumbnail={schedule.thumbnail}
+								day={schedule.label}
+								topic={`${schedule.topic} Day`}
+								date={schedule.date}
+								time={schedule.time}
+								url={schedule.youtube_url}
+								googleCalendarReminderUrl={schedule.celendar_url}
+							/>
+						))}
 					</div>
 					<div className="flex items-center justify-start">
 						<Link
