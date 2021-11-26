@@ -1,10 +1,14 @@
 import Fade from "react-reveal/Fade";
+import { Helmet } from "react-helmet";
 import { Container } from "../components/Container";
 import { SpeakersSection } from "../components/sections/SpeakersSection";
 
 export const Speakers = () => {
 	return (
 		<div>
+			<Helmet>
+				<title>GDG Devfest 2021 Jakarta - Speakers</title>
+			</Helmet>
 			<Container className="py-24 space-y-24">
 				<Fade top>
 					<div className="space-y-5">

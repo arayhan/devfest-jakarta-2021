@@ -1,5 +1,6 @@
 import Fade from "react-reveal/Fade";
 import { Container } from "../components/Container";
+import { Helmet } from "react-helmet";
 import { OrganizerCard } from "../components/OrganizerCard";
 import { SpeakerCard } from "../components/SpeakerCard";
 import { ORGANIZERS_DATA } from "../data/organizers";
@@ -7,6 +8,9 @@ import { ORGANIZERS_DATA } from "../data/organizers";
 export const Organizers = () => {
 	return (
 		<div>
+			<Helmet>
+				<title>GDG Devfest 2021 Jakarta - Organizers</title>
+			</Helmet>
 			<Container className="py-24 space-y-12">
 				<Fade top>
 					<div className="space-y-5">

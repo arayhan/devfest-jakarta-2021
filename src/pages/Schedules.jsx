@@ -1,4 +1,5 @@
 import Fade from "react-reveal/Fade";
+import { Helmet } from "react-helmet";
 import { useState, useEffect } from "react";
 import { Container } from "../components/Container";
 import { Agenda } from "../components/sections/Agenda";
@@ -19,6 +20,9 @@ export const Schedules = () => {
 
 	return (
 		<div>
+			<Helmet>
+				<title>GDG Devfest 2021 Jakarta - Schedules</title>
+			</Helmet>
 			<Container className="py-24 space-y-12">
 				<Fade top>
 					<div className="space-y-5">
